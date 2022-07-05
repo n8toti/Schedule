@@ -1,8 +1,8 @@
 Schedule
-The user is prompted to log in. If their system is in French they will be prompted in French-- otherwise English.
-In this application I am pulling data from a shared database between 3 geographic countries with customers and
-appointments, contacts and users. I use the information from the database to develop a working application to schedule
-update and delete customers and appointments all in a functional and self explanitory GUI for the end user.
+The user is prompted to log in. A report is created of all succesful and attempted logins labeled login_activity.txt. If the users system is in French they will be prompted in French-- otherwise English.
+In this application I am pulling data from a database that is shared between 3 geographically different countries. The database data houses customers and
+appointments, contacts and users countries and regions. I use the information from the database to develop a working application to schedule
+update and delete customers and appointments all in a functional and self explanitory GUI for the end user. A customer is not allowed to overlap their appointments. A customer can not be deleted if they have appointments scheduled. A report is created of a contacts schedule. Appointments can be viewed by week or by month. A report for total appointments by type and month is created and displayed in a table.
 
 @Author Nathanial Toti
 @Contact ntoti@wgu.edu

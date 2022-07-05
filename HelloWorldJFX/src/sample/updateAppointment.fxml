@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.updateAppointmentController">
+    <children>
+        <Label fx:id="appID" layoutX="123.0" layoutY="136.0" prefHeight="23.0" prefWidth="108.0" text="Appointment ID" />
+        <Label layoutX="123.0" layoutY="269.0" text="Location" />
+        <Label layoutX="123.0" layoutY="393.0" text="Start Date &amp; Time" />
+        <Label layoutX="123.0" layoutY="311.0" text="Contact" />
+        <Label layoutX="123.0" layoutY="355.0" text="Type" />
+        <Label layoutX="123.0" layoutY="226.0" text="Description" />
+        <Label layoutX="123.0" layoutY="180.0" prefHeight="23.0" prefWidth="108.0" text="Title" />
+        <Label layoutX="276.0" layoutY="33.0" prefHeight="40.0" prefWidth="374.0" text="Update Appointments">
+        </Label>
+        <Label layoutX="121.0" layoutY="427.0" text="End Date &amp; Time" />
+        <Label layoutX="123.0" layoutY="460.0" text="Customer ID" />
+        <Label layoutX="123.0" layoutY="494.0" text="User ID" />
+        <ComboBox fx:id="contactCombo" layoutX="463.0" layoutY="307.0" prefWidth="150.0" promptText="Select Contact" />
+        <TextField fx:id="appIDText" disable="true" layoutX="463.0" layoutY="135.0" prefHeight="25.0" prefWidth="118.0" />
+        <TextField fx:id="titleText" layoutX="463.0" layoutY="179.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="descriptionText" layoutX="463.0" layoutY="222.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="locationText" layoutX="463.0" layoutY="265.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="typeText" layoutX="463.0" layoutY="351.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="startText" layoutX="463.0" layoutY="389.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="endText" layoutX="463.0" layoutY="423.0" prefHeight="25.0" prefWidth="235.0" />
+        <TextField fx:id="customerIDText" layoutX="463.0" layoutY="456.0" prefHeight="25.0" prefWidth="118.0" />
+        <TextField fx:id="userIDText" layoutX="463.0" layoutY="490.0" prefHeight="25.0" prefWidth="118.0" />
+        <Button fx:id="updateButton" layoutX="732.0" layoutY="586.0" mnemonicParsing="false" onMouseClicked="#updateOnClick" prefHeight="40.0" prefWidth="93.0" text="Update" />
+        <Button fx:id="backButton" layoutX="114.0" layoutY="586.0" mnemonicParsing="false" onMouseClicked="#backOnClick" prefHeight="40.0" prefWidth="93.0" text="Back" />
+    </children>
+</AnchorPane>

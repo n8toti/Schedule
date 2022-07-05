@@ -5,9 +5,13 @@ appointments, contacts and users countries and regions. I use the information fr
 update, delete, and add customers and appointments all in a functional and self explanitory GUI for the end user. A customer is not allowed to overlap their appointments. A customer can not be deleted if they have appointments scheduled. A report is created of a contacts schedule. Appointments can be viewed by week or by month. A report for total appointments by type and month is created and displayed in a table.
 
 @Author Nathanial Toti
+
 @Contact ntoti@wgu.edu
-@Application Version https://labclient.labondemand.com/LabClient/89706e8c-ffcc-447a-906c-6f3b7f6bbcf2?rc=10
+
+@Application Version: 1.0
+
 @Date 2022-06-24
+
 @IDE IntelliJ IDEA 2022.1.3 (Community Edition) JDK 18_linux-x64_bin SDK 18.0.1_linux-x64
 
 The Main class has the main method to run the program.
